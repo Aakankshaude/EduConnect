@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "target": "esnext",  // Set to esnext for modern JavaScript features
+      "module": "esnext",  // Use ES modules
+      "moduleResolution": "node",  // Node module resolution strategy
+      "jsx": "react-jsx"  // JSX transform support for React 17+
+    },
+    "include": [
+      "src/**/*"  // Include all files inside the src directory
+    ]
+  }
+  

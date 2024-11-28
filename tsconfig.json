@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",  // Use the new JSX Transform
+      "baseUrl": ".",      // Base directory for resolving non-relative paths
+      "paths": {
+        "@/*": ["./src/*"]  // Maps the @ alias to the src directory
+      }
+    },
+    "references": [
+      {
+        "path": "./tsconfig.app.json"
+      },
+      {
+        "path": "./tsconfig.node.json"
+      }
+    ],
+    "files": []
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",  // Use CommonJS for Node.js
+      "moduleResolution": "node"
+    },
+    "include": [
+      "server/**/*"  // Modify to fit your Node.js code location
+    ]
+  }
+  
